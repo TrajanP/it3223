@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/cart.css"/>
+    <link rel="shortcut icon" href="masterchief_icon.ico"/>
+    <title>Trajan WebDev-2</title>
+</head>
+<body>
+    <nav> 
+        <div class="title-box">
+            <h1>Book O'Rama</h1>
+        </div>
+        <div class="nav-box">
+            <ul class="nav-list">
+                <li><h3><a href="index1.html">Home</a></h3></li>
+                <li><h3><a href="magazines1.html">Magazines</a></h3></li>
+                <li><h3><a href="signup1.html">Sign Up</a></h3></li>
+                <li><h3><a href="cart.html">Cart</a></h3></li>
+                <li><h3><a href="../../index.html">Dashboard</a></h3></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="form-label">
+        <h2>Fill out your book order here to see your total!</h2>
+    </div>
+    <div class="form-box-cart">
+        <form style="text-align: center; padding: 15px;">
+            <h3>
+                Magazine 1 <br>
+                <label for="m1">Quantity:</label>
+                <input type="text" id="m1ID" value="0"> 
+                <label for="cost1">Cost:</label>
+                <input type="text" id="cost1ID" value="0"> <br>
+
+                Magazine 2 <br>
+                <label for="m2">Quantity:</label>
+                <input type="text" id="m2ID" value="0"> 
+                <label for="cost2">Cost:</label>
+                <input type="text" id="cost2ID"  value="0"> <br>
+
+                Magazine 3 <br>
+                <label for="m3">Quantity:</label>
+                <input type="text" id="m3ID" value="0"> 
+                <label for="cost3">Cost:</label>
+                <input type="text" id="cost3ID" value="0"> <br>
+
+                Magazine 4 <br>
+                <label for="m4">Quantity:</label>
+                <input type="text" id="m4ID" value="0"> 
+                <label for="cost4">Cost:</label>
+                <input type="text" id="cost4ID" value="0"> <br>
+
+                Magazine 5 <br>
+                <label for="m5">Quantity:</label>
+                <input type="text" id="m5ID" value="0"> 
+                <label for="cost5">Cost:</label>
+                <input type="text" id="cost5ID" value="0"> <br>
+
+            <input style="width: 80px; height: 30px; font-size: large;" type="button" value="Calculate" id="submitID">
+            <input style="width: 80px; height: 30px; font-size: large;" type="button" value="Clear" id="clearID">
+            </h3>
+            <h2><div class="nobr">Your cart total is $</div><div class="nobr" id = "totalID">0</div></h2>
+        </form>
+
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
