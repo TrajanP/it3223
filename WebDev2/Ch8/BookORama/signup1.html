@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/index1.css"/>
+    <link rel="shortcut icon" href="../../masterchief_icon.ico"/>
+    <title>Trajan WebDev-2</title>
+</head>
+<body>
+    <nav> 
+        <div class="title-box">
+            <h1>Book O'Rama</h1>
+        </div>
+        <div class="nav-box">
+            <ul class="nav-list">
+                <li><h3><a href="index1.html">Home</a></h3></li>
+                <li><h3><a href="magazines1.html">Magazines</a></h3></li>
+                <li><h3><a href="signup1.html">Sign Up</a></h3></li>
+                <li><h3><a href="cart.html">Cart</a></h3></li>
+                <li><h3><a href="faq.html">FAQ's</a></h3></li>
+                <li><h3><a href="../../index.html">Dashboard</a></h3></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form-label">
+        <h2>We'd love for you to sign up with us! Stay up to date with promotions, new book arrivals and more.</h2>
+    </div>
+    <div class="form-box">
+        <form style="text-align: center; padding: 15px;" id="formID">
+            <h3>
+                <div>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fnameID" name="fname" value=""> <span style="color:rgb(152, 67, 67);"></span>
+                </div>
+                <div>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lnameID" name="lname" value=""> <span style="color:rgb(152, 67, 67);"></span>
+                </div>
+                <div>
+                    <label for="number">Phone Number:</label> 
+                    <input type="text" id="numberID" name="number" value=""> <span style="color:rgb(152, 67, 67);"></span>
+                </div>
+                <div>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="emailID" name="email" value=""> <span style="color:rgb(152, 67, 67);"></span>
+                </div>
+                <div>   
+                    <label for="Email">Confirm Email:</label>
+                    <input type="text" id="email2ID" name="email2" value=""> <span style="color:rgb(152, 67, 67);"></span>
+                </div>
+
+            <div>
+                <label>Contact me by:</label>
+                <input type="radio" name="contact" id="textID"
+                    value="text" checked>Text
+                <input type="radio" name="contact" id="emailID"
+                    value="email">Email
+                <input type="radio" name="contact" id="mobileID"
+                    value="mobile">Phone
+                <input type="radio" name="contact" id="none"
+                    value="none">Don't contact me
+            </div>
+
+            <input style="width: 80px; height: 30px; font-size: large;" type="button" value="Submit" id="submitID">
+            <input style="width: 80px; height: 30px; font-size: large;" type="button" value="Clear" id="clearID">
+            </h3>
+        </form>
+
+    </div>
+</body>
+<script src="signup.js"> </script>
+</html>
